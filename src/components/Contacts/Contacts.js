@@ -1,8 +1,7 @@
 import React from 'react';
-import './Button.css';
+import './Contacts.css';
 import Header from "../Header/Header"
 import SimpleSlider from "../Slider/Slider"
-
 
 const listImg = [
     { url:'/images/image1.jpg', alt: 'image1'},
@@ -17,10 +16,11 @@ const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1
 };
-class Button extends React.Component {
+
+class Contacts extends React.Component {
     render() {
         return (
             <main>
@@ -34,4 +34,4 @@ class Button extends React.Component {
     }
 }
 
-export default Button;
+export default Contacts;

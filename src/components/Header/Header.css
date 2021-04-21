@@ -1,0 +1,10 @@
+.Section-Title {
+  margin-right: 20px;
+}
+.header {
+  margin: 0 auto;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css';
+import './Appointments.css';
 import Header from "../Header/Header"
 import SimpleSlider from "../Slider/Slider"
 
@@ -17,10 +17,11 @@ const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1
 };
-class Button extends React.Component {
+
+class Appointments extends React.Component {
     render() {
         return (
             <main>
@@ -34,4 +35,4 @@ class Button extends React.Component {
     }
 }
 
-export default Button;
+export default Appointments;

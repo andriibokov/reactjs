@@ -1,14 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calc from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import { Router } from "react-router-dom"
+import {createBrowserHistory} from 'history'
 
 
-ReactDOM.render(
-  <Calc />,
-  document.getElementById('root')
+const history = createBrowserHistory()
+
+
+ReactDOM.render((
+    <Router history={history}>
+      <App/>
+    </Router>
+  ), document.getElementById('root')
 );
 
 
